@@ -59,16 +59,19 @@ footer {
 /* Change the background colors below */
 
 @media (min-width: 768px) {
+
   header {
     background-color: aquamarine;
   }
 
   #column-1 {
     background-color: mediumaquamarine;
+    width: 50%;
   }
 
   #column-2 {
     background-color: lightseagreen;
+    width: 50%
   }
 
   #column-3 {
@@ -78,7 +81,6 @@ footer {
   footer {
     background-color: teal;
   }
-  
 }
 
 
@@ -90,18 +92,23 @@ footer {
 
   #column-1 {
     background-color: thistle;
+    width: 33.33%;
   }
 
   #column-2 {
     background-color: mediumorchid;
+    width: 33.33%;
   }
 
   #column-3 {
     background-color: darkorchid;
+    width: 33.33%;
   }
 
   footer {
     background-color: indigo;
   }
-   
+  #wrapper {
+    width: 100%;
+  }
 }
